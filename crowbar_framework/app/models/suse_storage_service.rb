@@ -15,5 +15,5 @@
 # limitations under the License.
 #
 
-class SuseStorageServie < ServiceObject
+class SuseStorageService < ServiceObject
 end
