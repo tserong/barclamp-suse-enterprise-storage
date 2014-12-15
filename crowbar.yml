@@ -16,7 +16,7 @@
 #
 
 barclamp:
-  name: storage
+  name: suse-storage
   display: Storage
   description: SUSE Storage components
   version: 0
