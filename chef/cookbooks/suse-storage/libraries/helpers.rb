@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+=begin
 # Helpers wrapping CrowbarOpenStackHelper, provided for convenience for direct
 # calls from recipes.
 # We prefix the method names with "fetch_" because the return value should
@@ -132,3 +132,4 @@ class CrowbarOpenStackHelper
     result
   end
 end
+=end

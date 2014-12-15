@@ -15,19 +15,20 @@
 # limitations under the License.
 #
 
-root:
-  topic_meta_data:
-    author: 'Multiple authors'
-    license: 'Apache 2'
-    copyright: '2014 by Dell, Inc'
-    date: 'June 1, 2012'
-    order: 'alpha'
-    url: '/crowbar/openstack/1.0'
-    format: 'markdown'
-
-  barclamps:
-    openstack:
-      topic_meta_data:
-        file: 'index'
-        url: '/crowbar/openstack/1.0'
-        order: 100
+en:
+  nav:
+    suse_storage: 'Storage'
+  barclamp:
+    suse_storage:
+      edit_attributes:
+        noconfig: 'No Configuration Options'
+      edit_deployment:
+        noconfig: 'No Configuration Options'
+      index:
+        title: 'Storage'
+        barclamp: 'Project'
+        state: 'Status'
+        proposal: 'Proposal'
+        description: 'Notice'
+        instructions: 'Create and apply proposals in order from top to bottom.'
+        hint: ''

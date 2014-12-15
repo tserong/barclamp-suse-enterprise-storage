@@ -16,20 +16,15 @@
 #
 
 barclamp:
-  name: openstack
-  display: OpenStack
-  description: OpenStack Project has multiple components
+  name: storage
+  display: Storage
+  description: SUSE Storage components
   version: 0
   user_managed: false
   member:
-    - openstack
+    - suse_storage
   requires:
     - '@crowbar'
-    - nova_dashboard
-    - keystone
-  os_support:
-    - ubuntu-10.10
-    - ubuntu-12.04
 
 crowbar:
   layout: 1
@@ -39,6 +34,5 @@ crowbar:
 
 nav:
   barclamps:
-    openstack: index_barclamp_path(:controller=>'openstack')
-  help:
-    openstack: '"/openstack_users_guide.pdf", { :link => { :target => "_blank" } }'
+    suse_storage: index_barclamp_path(:controller=>'suse_storage')
+

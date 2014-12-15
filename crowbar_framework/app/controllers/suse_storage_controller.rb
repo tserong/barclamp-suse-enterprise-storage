@@ -15,5 +15,15 @@
 # limitations under the License.
 #
 
-class OpenstackService < ServiceObject
+class SuseStorageController < BarclampController
+  def index
+    @title = I18n.t("title", :scope => "barclamp.suse_storage.index")
+    super
+  end
+
+  protected
+
+  def initialize_service
+    @service_object = SuseStorageService.new logger
+  end
 end

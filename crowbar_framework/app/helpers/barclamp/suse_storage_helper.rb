@@ -15,20 +15,7 @@
 # limitations under the License.
 #
 
-en:
-  nav:
-    openstack: 'OpenStack'
-  barclamp:
-    openstack:
-      edit_attributes:
-        noconfig: 'No Configuration Options'
-      edit_deployment:
-        noconfig: 'No Configuration Options'
-      index:
-        title: 'OpenStack'
-        barclamp: 'Project'
-        state: 'Status'
-        proposal: 'Proposal'
-        description: 'Notice'
-        instructions: 'Create and apply proposals in order from top to bottom.'
-        hint: ''
+module Barclamp
+  module SuseStorageHelper
+  end
+end

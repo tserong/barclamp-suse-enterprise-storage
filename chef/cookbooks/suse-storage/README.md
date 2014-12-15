@@ -1,13 +1,13 @@
 Description
 ====
 
-This is a cookbook for helping install and configure OpenStack as part
-of Crowbar.
+This is a cookbook for helping install and configure Ceph as part
+of SUSE Storage.
 
 License and Author
 ====
 
-Author:: Vincent Untz <vuntz@suse.com>
+Author:: Tim Serong <tserong@suse.com>
 Copyright:: 2014 SUSE
 
 Licensed under the Apache License, Version 2.0 (the "License");
