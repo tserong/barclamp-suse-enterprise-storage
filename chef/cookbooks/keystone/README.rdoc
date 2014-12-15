@@ -1,0 +1,2 @@
+Stub (empty) implementation of keystone to meet requirements of ceph barclamp
+
