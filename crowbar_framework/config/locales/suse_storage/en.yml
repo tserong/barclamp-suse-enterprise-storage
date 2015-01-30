@@ -17,7 +17,8 @@
 
 en:
   nav:
-    suse_storage: 'SUSE Storage'
+    barclamps:
+      suse_storage: 'SUSE Storage'
   barclamp:
     suse_storage:
       edit_attributes:

@@ -31,8 +31,13 @@ crowbar:
   order: 200
   run_order: 200
   chef_order: 200
+  proposal_schema_version: 3
 
 nav:
   barclamps:
-    suse_storage: index_barclamp_path(:controller=>'suse_storage')
+    suse_storage:
+      order: 30
+      route: 'index_barclamp_path'
+      params:
+        controller: 'suse_storage'
 
