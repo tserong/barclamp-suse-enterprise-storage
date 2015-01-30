@@ -2,7 +2,7 @@ Description
 ====
 
 This is a cookbook for helping install and configure Ceph as part
-of SUSE Storage.
+of SUSE Enterprise Storage.
 
 License and Author
 ====

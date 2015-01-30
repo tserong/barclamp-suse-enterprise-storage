@@ -18,7 +18,7 @@
 en:
   nav:
     barclamps:
-      suse_storage: 'SUSE Storage'
+      suse_storage: 'SUSE Enterprise Storage'
   barclamp:
     suse_storage:
       edit_attributes:
@@ -26,7 +26,7 @@ en:
       edit_deployment:
         noconfig: 'No Configuration Options'
       index:
-        title: 'SUSE Storage'
+        title: 'SUSE Enterprise Storage'
         barclamp: 'Project'
         state: 'Status'
         proposal: 'Proposal'
