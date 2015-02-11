@@ -16,6 +16,6 @@
 #
 
 module Barclamp
-  module SuseStorageHelper
+  module SuseEnterpriseStorageHelper
   end
 end
