@@ -19,7 +19,7 @@ barclamp:
   name: suse-storage
   display: SUSE Enterprise Storage
   description: SUSE Enterprise Storage components
-  version: 0
+  version: 1
   user_managed: false
   member:
     - suse_storage
