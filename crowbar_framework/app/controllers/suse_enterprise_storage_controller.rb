@@ -15,15 +15,15 @@
 # limitations under the License.
 #
 
-class SuseStorageController < BarclampController
+class SuseEnterpriseStorageController < BarclampController
   def index
-    @title = I18n.t("title", :scope => "barclamp.suse_storage.index")
+    @title = I18n.t("title", :scope => "barclamp.suse_enterprise_storage.index")
     super
   end
 
   protected
 
   def initialize_service
-    @service_object = SuseStorageService.new logger
+    @service_object = SuseEnterpriseStorageService.new logger
   end
 end

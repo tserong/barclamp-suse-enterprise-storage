@@ -16,13 +16,13 @@
 #
 
 barclamp:
-  name: suse-storage
+  name: suse-enterprise-storage
   display: SUSE Enterprise Storage
   description: SUSE Enterprise Storage components
   version: 1
   user_managed: false
   member:
-    - suse_storage
+    - suse_enterprise_storage
   requires:
     - '@crowbar'
 
@@ -35,9 +35,9 @@ crowbar:
 
 nav:
   barclamps:
-    suse_storage:
+    suse_enterprise_storage:
       order: 30
       route: 'index_barclamp_path'
       params:
-        controller: 'suse_storage'
+        controller: 'suse_enterprise_storage'
 
