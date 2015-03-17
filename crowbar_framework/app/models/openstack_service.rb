@@ -15,19 +15,5 @@
 # limitations under the License.
 #
 
-root:
-  topic_meta_data:
-    author: 'Multiple authors'
-    license: 'Apache 2'
-    copyright: '2014 by Dell, Inc'
-    date: 'June 1, 2012'
-    order: 'alpha'
-    url: '/crowbar/suse_enterprise_storage/1.0'
-    format: 'markdown'
-
-  barclamps:
-    suse_enterprise_storage:
-      topic_meta_data:
-        file: 'index'
-        url: '/crowbar/suse_enterprise_storage/1.0'
-        order: 100
+class OpenstackService < ServiceObject
+end

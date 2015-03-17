@@ -18,9 +18,9 @@
 en:
   nav:
     barclamps:
-      suse_enterprise_storage: 'SUSE Enterprise Storage'
+      openstack: 'SUSE Enterprise Storage'
   barclamp:
-    suse_enterprise_storage:
+    openstack:
       edit_attributes:
         noconfig: 'No Configuration Options'
       edit_deployment:

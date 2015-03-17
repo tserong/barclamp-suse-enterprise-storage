@@ -15,29 +15,7 @@
 # limitations under the License.
 #
 
-barclamp:
-  name: openstack
-  display: SUSE Enterprise Storage
-  description: SUSE Enterprise Storage components
-  version: 1
-  user_managed: false
-  member:
-    - openstack
-  requires:
-    - '@crowbar'
-
-crowbar:
-  layout: 1
-  order: 200
-  run_order: 200
-  chef_order: 200
-  proposal_schema_version: 3
-
-nav:
-  barclamps:
-    openstack:
-      order: 30
-      route: 'index_barclamp_path'
-      params:
-        controller: 'openstack'
-
+module Barclamp
+  module OpenstackHelper
+  end
+end

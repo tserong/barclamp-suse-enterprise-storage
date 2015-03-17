@@ -15,15 +15,19 @@
 # limitations under the License.
 #
 
-class SuseEnterpriseStorageController < BarclampController
-  def index
-    @title = I18n.t("title", :scope => "barclamp.suse_enterprise_storage.index")
-    super
-  end
+root:
+  topic_meta_data:
+    author: 'Multiple authors'
+    license: 'Apache 2'
+    copyright: '2014 by Dell, Inc'
+    date: 'June 1, 2012'
+    order: 'alpha'
+    url: '/crowbar/openstack/1.0'
+    format: 'markdown'
 
-  protected
-
-  def initialize_service
-    @service_object = SuseEnterpriseStorageService.new logger
-  end
-end
+  barclamps:
+    openstack:
+      topic_meta_data:
+        file: 'index'
+        url: '/crowbar/openstack/1.0'
+        order: 100
